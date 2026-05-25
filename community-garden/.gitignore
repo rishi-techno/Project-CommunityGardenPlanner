@@ -1,0 +1,42 @@
+# ─── Build Output ─────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ─── Maven ────────────────────────────────────────────────────
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ─── Spring Boot ──────────────────────────────────────────────
+HELP.md
+
+# ─── Environment / Secrets ────────────────────────────────────
+# Never commit real DB passwords or JWT secrets
+application-prod.properties
+application-local.properties
+*.env
+
+# ─── IDE ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+*.factorypath
+
+# ─── OS ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
